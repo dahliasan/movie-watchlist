@@ -1,7 +1,7 @@
 👀 View the demo [here](https://fooxhd.github.io/movie-watchlist/).
 # Overview
 
-An app that lets users search for movies from the Open Movie Database API and add movies to their personal watchlist.
+An app that lets users search for movies from the [Open Movie Database API](https://www.omdbapi.com/) and add movies to their personal watchlist.
 
 This is a project from the [Frontend Developer Career Path](https://scrimba.com/learn/frontend) by Scrimba.
 
