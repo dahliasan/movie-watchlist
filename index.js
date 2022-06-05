@@ -32,6 +32,14 @@ async function search() {
     let searchUrl = `https://www.omdbapi.com/?apikey=${apiKey}&s=${userInput.value}`
     
     let res = await fetch(searchUrl)
+
+    // display mesage while fetching from API
+    mainContainer.innerHTML = `
+        <div id="initial-state">
+            <img src="imgs/film.png">
+            <h2>Searching...</h2>
+        </div>
+        `
     let data = await res.json()
     
     if(data.Response === "True") {
